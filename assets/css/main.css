@@ -95,7 +95,6 @@ h6 {
   display: flex;
   justify-content: space-between;
   font-size: 2rem;
-  padding: 0%;
 }
 
 .countdown div {
@@ -106,6 +105,18 @@ h6 {
   display: block;
   font-size: 2rem;
   margin-bottom: 5px;
+}
+
+.countdown button {
+  background: #ff9800;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  font-size: 1.5rem;
+  border-radius: 50px;
+  cursor: default;
+  min-width: 100px;
+  position: relative;
 }
 
 /* Pulsating Play Button
