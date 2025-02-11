@@ -171,7 +171,7 @@
 
  // Countdown Timer
  let countdownDate = new Date();
- countdownDate.setDate(countdownDate.getDate() + 100);
+ countdownDate.setDate(countdownDate.getDate() + 45);
  countdownDate.setHours(countdownDate.getHours() + 50);
  countdownDate.setMinutes(countdownDate.getMinutes() + 50);
  countdownDate.setSeconds(countdownDate.getSeconds() + 60);
