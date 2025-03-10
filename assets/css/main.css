@@ -14,7 +14,7 @@
 }
 
 .gin-section {
-  background-color: #e7a50b;
+  background-color: #f6f3ed;
   padding: 60px 10%;
   border-radius: 100px;
 }
@@ -50,6 +50,49 @@
   font-size: 16px;
   line-height: 1.6;
 }
+
+.statement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full screen height */
+  background-color: #F8E1B8; /* Background color */
+  padding: 20px;
+  border-radius: 1000px;
+}
+
+.statement-text {
+  max-width: 600px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.statement-text p {
+  font-family: 'Arial', sans-serif;
+  color: #4A362D;
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  text-decoration: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .statement-text {
+      max-width: 90%;
+      padding: 20px;
+      border-radius: 50px;
+  }
+
+  .statement-text p {
+      font-size: 18px;
+      text-decoration: solid;
+  }
+}
+
 
 
 /* Fonts */
