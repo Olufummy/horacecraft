@@ -13,6 +13,44 @@
   text-decoration: underline;
 }
 
+.gin-section {
+  background-color: #e7a50b;
+  padding: 60px 10%;
+  border-radius: 100px;
+}
+
+.gin-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.gin-box {
+  flex: 1;
+  max-width: 48%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.gin-image {
+  width: 100%;
+  max-width: 250px;
+  display: block;
+  margin: 0 auto 20px;
+  border-radius: 5px;
+}
+
+.gin-text {
+  font-family: 'Arial', sans-serif;
+  color: #4A362D;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
 
 /* Fonts */
 :root {
@@ -95,6 +133,7 @@ h6 {
   display: flex;
   justify-content: space-between;
   font-size: 2rem;
+  padding-bottom: 50px;
 }
 
 .countdown div {
