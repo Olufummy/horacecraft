@@ -186,9 +186,9 @@
      const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
 
      document.getElementById("days").textContent = `${days} Days`;
-     document.getElementById("hours").textContent = `${hours} Hours`;
-     document.getElementById("minutes").textContent = `${minutes} Minutes`;
-     document.getElementById("seconds").textContent = `${seconds} Seconds`;
+     document.getElementById("hours").textContent = `${hours} Hrs`;
+     document.getElementById("minutes").textContent = `${minutes} Mins`;
+     document.getElementById("seconds").textContent = `${seconds} Secs`;
 
      if (timeLeft < 0) {
          clearInterval(timerInterval);
